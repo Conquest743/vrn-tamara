@@ -1,4 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Commissioner:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/be2404960be8091afa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/2202bdc302c1e56dca.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/d9f58232dc59d8d8dd.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/a6d747b3c1c79f8e5c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/c8f8c7f5ed539bb424.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/26bad053b5abef0e19.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/9c2c504c5bf6914e66.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/vrn-tamara/fonts/33605a4217326af45f.ttf) format('truetype');
+}
+
+
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper,#fff);color:var(--ink,#171717);font-family:var(--body),sans-serif;font-size:clamp(16px,1.3vw,19px);line-height:1.5}a{color:inherit;text-underline-offset:4px}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:var(--display),serif;font-weight:500;line-height:1.03;letter-spacing:-.035em}h1{font-size:clamp(42px,7vw,112px);overflow-wrap:break-word}h2{font-size:clamp(32px,4vw,66px)}img{display:block;width:100%;max-width:100%;object-fit:cover}iframe{border:0;display:block;width:100%}section{scroll-margin-top:24px}.wrap{width:min(1320px,calc(100% - 96px));margin-inline:auto}.eyebrow{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase}.call-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;text-decoration:none;border:1px solid currentColor;border-radius:0;font-family:var(--body),sans-serif;font-weight:600;white-space:normal}.hero-picture{position:relative;overflow:hidden}.hero-picture img{height:100%}.hero-picture figcaption{position:absolute;bottom:8px;left:12px;right:12px;color:#fff;background:rgba(0,0,0,.48);width:fit-content;font-size:10px;padding:3px 7px}.review-quote{padding-block:clamp(30px,6vw,80px);border-block:1px solid var(--line,#bbb)}.review-quote blockquote{font-family:var(--display),serif;font-size:clamp(28px,4.5vw,66px);line-height:1.2;margin:0 0 24px}.review-quote figcaption{display:flex;justify-content:space-between;gap:12px;font-size:14px}.review-widget{max-width:760px;margin:auto}.review-widget iframe{height:550px}.contact-block{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);gap:40px;padding:clamp(28px,5vw,72px) 0}.contact-facts h2{font-size:clamp(27px,3vw,48px);margin:18px 0}.hours{white-space:pre-line}.phone-text{display:block;margin:22px 0 12px;font-size:25px}.social-links{display:flex;gap:16px;flex-wrap:wrap}.map-link{display:inline-block;margin-top:18px}.map-frame{min-height:340px;height:100%}.footer-call{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:34px 0;border-top:1px solid var(--line)}.footer-call strong{font-family:var(--display);font-size:clamp(28px,4vw,54px);font-weight:500}.demo-note{font-size:12px;padding:0 0 22px;opacity:.7}.will-reveal{opacity:0;transform:translateY(12px);transition:opacity .5s ease,transform .5s ease}.will-reveal.shown{opacity:1;transform:none}@media(max-width:700px){.wrap{width:calc(100% - 36px)}.contact-block{grid-template-columns:1fr;gap:28px}.map-frame{height:310px}.footer-call{align-items:flex-start;flex-direction:column}.review-quote figcaption{flex-direction:column}.call-button{min-height:48px}.review-widget iframe{height:480px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.will-reveal{opacity:1;transform:none;transition:none}}
 
 :root{--display:'Lora';--body:'Commissioner';--accent:#276f88;--paper:#f3eee4;--ink:#302e29;--line:#c8bfb2;--cta:#ffffff}

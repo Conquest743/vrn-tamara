@@ -17,3 +17,6 @@ React + Vite + TypeScript. Это не официальный сайт и не �
 - npm run preview
 
 Actions публикует dist в GitHub Pages при push в main. Включить Pages: GitHub Actions. Домен, запись, формы оплаты и аналитика не подключены.
+
+## Шрифты
+Две семьи Google Fonts размещены локально в public/fonts, исходные лицензии SIL OFL включены рядом. Внешнего запроса к Google Fonts при открытии страницы нет.

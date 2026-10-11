@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T16:58:48.447Z",
+  "title": "Design System: Ателье Тамары Трусовой",
+  "extensions": {
+    "shadows": [],
+    "motion": [
+      {
+        "name": "block-reveal",
+        "value": "opacity .5s ease, transform .5s ease",
+        "purpose": "Первая прокрутка; reduced-motion отключает переход."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Phone call",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "Прямой звонок.",
+      "html": "<a class=\"ds-call\" href=\"tel:+70000000000\">Позвонить</a>",
+      "css": ".ds-call{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:1px solid currentColor;border-radius:0;color:inherit;text-decoration:none;font-family:var(--body),sans-serif}.ds-call:hover{text-decoration:underline}.ds-call:focus-visible{outline:2px solid var(--accent);outline-offset:5px}"
+    },
+    {
+      "name": "Review quote",
+      "kind": "custom",
+      "description": "Крупный голос гостя и подпись.",
+      "html": "<figure class=\"ds-quote\"><blockquote>Текст публичного отзыва</blockquote><figcaption>Имя · оценка</figcaption></figure>",
+      "css": ".ds-quote{padding:30px 0;border-block:1px solid var(--line)}.ds-quote blockquote{font-family:var(--display);font-size:clamp(28px,4.5vw,66px);line-height:1.2;margin:0 0 24px}.ds-quote figcaption{font-size:14px}"
+    },
+    {
+      "name": "Contact facts",
+      "kind": "custom",
+      "description": "Единый блок адреса и расписания.",
+      "html": "<section class=\"ds-contact\"><h2>Адрес</h2><p>Адрес из карточки</p><p class=\"ds-hours\">Часы работы</p></section>",
+      "css": ".ds-contact{border-top:1px solid var(--line);padding:28px 0}.ds-contact h2{font-family:var(--display);font-size:clamp(27px,3vw,48px);margin:18px 0}.ds-hours{white-space:pre-line}"
+    },
+    {
+      "name": "Footer call",
+      "kind": "custom",
+      "description": "Повтор действия в конце.",
+      "html": "<footer class=\"ds-footer\"><strong>Позвоните нам</strong><a href=\"tel:+70000000000\">Позвонить</a></footer>",
+      "css": ".ds-footer{display:flex;justify-content:space-between;gap:24px;padding:34px 0;border-top:1px solid var(--line)}.ds-footer strong{font-family:var(--display);font-size:clamp(28px,4vw,54px);font-weight:500}.ds-footer a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}@media(max-width:700px){.ds-footer{flex-direction:column}}"
+    },
+    {
+      "name": "Social links",
+      "kind": "custom",
+      "description": "Открытые контакты, когда они есть.",
+      "html": "<div class=\"ds-social\"><a href=\"#\">Контакт бизнеса</a></div>",
+      "css": ".ds-social{display:flex;gap:16px;flex-wrap:wrap}.ds-social a{text-underline-offset:4px}.ds-social a:hover{text-decoration:underline}.ds-social a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Книга персонального пошива",
+    "overview": "Книга персонального пошива. Документ извлечён из текущих src/style.css, src/App.tsx и src/components.tsx. Существующее направление сохранено там, где оно подтверждается реализацией; утверждений об утверждённом макете нет.",
+    "keyCharacteristics": [
+      "Центрированный заголовок с широким документальным фасадом; небольшая колонка задач и крупная цитата.",
+      "Крупная цитата и линейные списки.",
+      "Один цвет действия на нейтральных полях."
+    ],
+    "rules": [
+      {
+        "name": "Hairline structure",
+        "body": "Разделение услуг, цитат и контактов строится на тонких линиях, а не на поднятых карточках.",
+        "section": "elevation"
+      },
+      {
+        "name": "Two voices",
+        "body": "Название и цитаты используют display; бытовая информация и действия используют body.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do сохранять два фактически подключённых семейства и локальные WOFF2 с кириллицей.",
+      "Do оставлять телефонное действие в начале и конце страницы.",
+      "Do сохранять адрес, часы и карту в одном контактном блоке."
+    ],
+    "donts": [
+      "Don't заменять линейные разделители карточками с тенями и крупным скруглением.",
+      "Don't добавлять третье семейство или декоративные наборные иконки.",
+      "Don't превращать подпись визуальной концепции в утверждение, что это фотография."
+    ]
+  }
+}
