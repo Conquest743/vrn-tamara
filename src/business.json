@@ -1,0 +1,47 @@
+{
+  "slug": "vrn-tamara",
+  "name": "Ателье Тамары Трусовой",
+  "city": "Воронеж",
+  "category": "Ателье по пошиву одежды",
+  "address": "Воронеж, ул. Старых Большевиков, 53 · этаж 2, офис 76",
+  "phone": "+7 (900) 931-84-99",
+  "hours": "Пн 09:00–18:00; Вт 09:00–18:00; Ср 09:00–18:00; Чт 09:00–18:00; Пт 09:00–18:00; Сб выходной; Вс выходной",
+  "map": "https://yandex.ru/maps/org/atelye_tamary_trusovoy/169650001764/",
+  "orgId": "169650001764",
+  "rating": 5,
+  "ratingCount": 131,
+  "reviewCount": 120,
+  "reviews": [
+    {
+      "text": "Мастера, работающие в ателье - настоящие профессионалы.",
+      "name": "tamara n.",
+      "rating": 5,
+      "url": "https://yandex.ru/maps/org/atelye_tamary_trusovoy/169650001764/reviews/?reviewId=lm2z6lLAf7VCBAdi1hi2MTSS8QEhqca",
+      "date": "2026-05-15T07:47:15.683Z"
+    }
+  ],
+  "socials": [
+    {
+      "label": "whatsapp",
+      "url": "https://wa.me/79009318499"
+    },
+    {
+      "label": "telegram",
+      "url": "https://t.me/Tamara_Trusova_22"
+    },
+    {
+      "label": "vkontakte",
+      "url": "https://vk.ru/tt.fashion_house"
+    }
+  ],
+  "headline": "Ателье Тамары Трусовой",
+  "tagline": "Индивидуальный пошив и работа с вашей одеждой.",
+  "services": [
+    "Индивидуальный пошив",
+    "Ремонт и подгонка одежды",
+    "Работа с меховыми изделиями"
+  ],
+  "allPhones": [
+    "+7 (900) 931-84-99"
+  ]
+}
